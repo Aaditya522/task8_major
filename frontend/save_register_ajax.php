@@ -97,7 +97,7 @@ $_SESSION['temp_user_id']    = $user_id;
 $_SESSION['temp_otp']        = rand(100000, 999999);
 $_SESSION['temp_otp_expiry'] = time() + 300; // 5 minutes
 
-// ===================== This Block SENDs EMAIL =====================
+// ===================== This SENDs EMAIL =====================
 $mail = new PHPMailer(true);
 
 try {
